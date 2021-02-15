@@ -5,10 +5,10 @@ from getAnalysis import getAnalysis
 from postToZoom import postTranscript
 
 def main():
-    # findInputSource()
+    #findInputSource()
     # speak('Play Recording Now')
-    keepGoing = True
-    api_token = 'https://wmcc.zoom.us/closedcaption?id=99211570681&ns=VVNISU8gU0hJTk9IQVJBJ3MgWm9vbSBNZWV0aW5n&expire=86400&sparams=id%2Cns%2Cexpire&signature=xhouuJ1_oVm6g6zo1qZ0-1umW37xxtR-OQ8wJ83uINA.AG.Qurhu1AvwaiKL0Zb4SsIH6Y6d68Eotn6eIPJUJzeq6xmpF4G2NQX8Cl35bibNM7ESoyd2wtz86bc1y5BkpvUp7YheOFGchJTzYP3m7NAqUNQkDCmMhU30OWn.JPDT-e80tIuPkixHP55cuw.wV4vT0rfh9GRYsV8'
+    # keepGoing = True
+    api_token = 'https://wmcc.zoom.us/closedcaption?id=2172132419&ns=Sm9zaHVhIEh5bW93aXR6J3MgUGVyc29uYWwgTWVl&expire=86400&sparams=id%2Cns%2Cexpire&signature=4D-WcDJpnp5WDykMh9-_46bV6KeCYXgjGRaW1aycfZM.AG.zW9t_ZKFvA8x7L4ys0TNsDbHospEfvcDAvlFY2BJhSw_n9eTodS8eIJnVQxRdDBjclgi4toxTlhF2BUtPCT_WxOfBCLJfPhyMvvsRiKaF6i71U1yduEqQA.iwqfupZaNPjYxCkRh9CdkA.SG83HxndEETYNTZL'
 
     for i in range(5):
         text = getAudioFromMic()

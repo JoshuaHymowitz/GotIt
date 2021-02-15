@@ -5,7 +5,7 @@ import pyaudio
 
 def getAudioFromMic():   # Gets audio from mic and translates to text
     r = sr.Recognizer()
-    mic = sr.Microphone(device_index=2)
+    mic = sr.Microphone(device_index=1)
     # mic = sr.Microphone(device_index=None)
 
 
